@@ -75,6 +75,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Contu Construction" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Contu Construction — One-Stop Building Services" },
+      { name: "twitter:title", content: "Contu Construction — One-Stop Building Services" },
+      { property: "og:description", content: "Contu Construction delivers general building, plumbing, electrical, tiling, carpentry and architectural services for commercial and private projects." },
+      { name: "twitter:description", content: "Contu Construction delivers general building, plumbing, electrical, tiling, carpentry and architectural services for commercial and private projects." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e13346b4-bc0e-42b0-96b8-e828ac525d27/id-preview-f4723aaf--480f295c-fdff-4cf6-8d0b-1de38f22b8b2.lovable.app-1781590995129.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e13346b4-bc0e-42b0-96b8-e828ac525d27/id-preview-f4723aaf--480f295c-fdff-4cf6-8d0b-1de38f22b8b2.lovable.app-1781590995129.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
